@@ -1,0 +1,986 @@
+[
+ {
+  "id": "setup-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "setup",
+  "role": "markdown"
+ },
+ {
+  "id": "setup-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "setup",
+  "role": "markdown"
+ },
+ {
+  "id": "setup-code-01",
+  "cell_type": "code",
+  "task_id": "setup",
+  "role": "code"
+ },
+ {
+  "id": "setup-code-02",
+  "cell_type": "code",
+  "task_id": "setup",
+  "role": "code"
+ },
+ {
+  "id": "setup-code-03",
+  "cell_type": "code",
+  "task_id": "setup",
+  "role": "code"
+ },
+ {
+  "id": "palette",
+  "cell_type": "code",
+  "task_id": null,
+  "role": null
+ },
+ {
+  "id": "setup-markdown-03",
+  "cell_type": "markdown",
+  "task_id": "setup",
+  "role": "markdown"
+ },
+ {
+  "id": "setup-code-04",
+  "cell_type": "code",
+  "task_id": "setup",
+  "role": "code"
+ },
+ {
+  "id": "1-1-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "1.1",
+  "role": "markdown"
+ },
+ {
+  "id": "1-1-code-01",
+  "cell_type": "code",
+  "task_id": "1.1",
+  "role": "code"
+ },
+ {
+  "id": "1-1-code-02",
+  "cell_type": "code",
+  "task_id": "1.1",
+  "role": "code"
+ },
+ {
+  "id": "1-1-code-03",
+  "cell_type": "code",
+  "task_id": "1.1",
+  "role": "code"
+ },
+ {
+  "id": "1-1-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "1.1",
+  "role": "markdown"
+ },
+ {
+  "id": "1-1-code-04",
+  "cell_type": "code",
+  "task_id": "1.1",
+  "role": "code"
+ },
+ {
+  "id": "1-1-answer-01",
+  "cell_type": "markdown",
+  "task_id": "1.1",
+  "role": "answer"
+ },
+ {
+  "id": "1-2-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "1.2",
+  "role": "markdown"
+ },
+ {
+  "id": "1-2-code-01",
+  "cell_type": "code",
+  "task_id": "1.2",
+  "role": "code"
+ },
+ {
+  "id": "1-2-code-02",
+  "cell_type": "code",
+  "task_id": "1.2",
+  "role": "code"
+ },
+ {
+  "id": "1-2-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "1.2",
+  "role": "markdown"
+ },
+ {
+  "id": "1-2-answer-01",
+  "cell_type": "markdown",
+  "task_id": "1.2",
+  "role": "answer"
+ },
+ {
+  "id": "1-3-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "1.3",
+  "role": "markdown"
+ },
+ {
+  "id": "1-3-code-01",
+  "cell_type": "code",
+  "task_id": "1.3",
+  "role": "code"
+ },
+ {
+  "id": "1-3-code-02",
+  "cell_type": "code",
+  "task_id": "1.3",
+  "role": "code"
+ },
+ {
+  "id": "1-3-code-03",
+  "cell_type": "code",
+  "task_id": "1.3",
+  "role": "code"
+ },
+ {
+  "id": "support",
+  "cell_type": "code",
+  "task_id": null,
+  "role": null
+ },
+ {
+  "id": "1-3-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "1.3",
+  "role": "markdown"
+ },
+ {
+  "id": "1-3-answer-01",
+  "cell_type": "markdown",
+  "task_id": "1.3",
+  "role": "answer"
+ },
+ {
+  "id": "1-3-markdown-03",
+  "cell_type": "markdown",
+  "task_id": "1.3",
+  "role": "markdown"
+ },
+ {
+  "id": "1-3-code-04",
+  "cell_type": "code",
+  "task_id": "1.3",
+  "role": "code"
+ },
+ {
+  "id": "1-3-code-05",
+  "cell_type": "code",
+  "task_id": "1.3",
+  "role": "code"
+ },
+ {
+  "id": "1-3-markdown-04",
+  "cell_type": "markdown",
+  "task_id": "1.3",
+  "role": "markdown"
+ },
+ {
+  "id": "1-3-code-06",
+  "cell_type": "code",
+  "task_id": "1.3",
+  "role": "code"
+ },
+ {
+  "id": "1-3-code-07",
+  "cell_type": "code",
+  "task_id": "1.3",
+  "role": "code"
+ },
+ {
+  "id": "1-3-markdown-05",
+  "cell_type": "markdown",
+  "task_id": "1.3",
+  "role": "markdown"
+ },
+ {
+  "id": "1-3-answer-02",
+  "cell_type": "markdown",
+  "task_id": "1.3",
+  "role": "answer"
+ },
+ {
+  "id": "2-1-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "2.1",
+  "role": "markdown"
+ },
+ {
+  "id": "2-1-code-01",
+  "cell_type": "code",
+  "task_id": "2.1",
+  "role": "code"
+ },
+ {
+  "id": "2-1-code-02",
+  "cell_type": "code",
+  "task_id": "2.1",
+  "role": "code"
+ },
+ {
+  "id": "2-1-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "2.1",
+  "role": "markdown"
+ },
+ {
+  "id": "2-1-answer-01",
+  "cell_type": "markdown",
+  "task_id": "2.1",
+  "role": "answer"
+ },
+ {
+  "id": "2-2-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "2.2",
+  "role": "markdown"
+ },
+ {
+  "id": "2-2-answer-01",
+  "cell_type": "markdown",
+  "task_id": "2.2",
+  "role": "answer"
+ },
+ {
+  "id": "2-2-code-01",
+  "cell_type": "code",
+  "task_id": "2.2",
+  "role": "code"
+ },
+ {
+  "id": "2-2-code-02",
+  "cell_type": "code",
+  "task_id": "2.2",
+  "role": "code"
+ },
+ {
+  "id": "2-2-code-03",
+  "cell_type": "code",
+  "task_id": "2.2",
+  "role": "code"
+ },
+ {
+  "id": "2-2-code-04",
+  "cell_type": "code",
+  "task_id": "2.2",
+  "role": "code"
+ },
+ {
+  "id": "2-2-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "2.2",
+  "role": "markdown"
+ },
+ {
+  "id": "2-2-answer-02",
+  "cell_type": "markdown",
+  "task_id": "2.2",
+  "role": "answer"
+ },
+ {
+  "id": "3-1-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "3.1",
+  "role": "markdown"
+ },
+ {
+  "id": "3-1-answer-01",
+  "cell_type": "markdown",
+  "task_id": "3.1",
+  "role": "answer"
+ },
+ {
+  "id": "3-1-code-01",
+  "cell_type": "code",
+  "task_id": "3.1",
+  "role": "code"
+ },
+ {
+  "id": "3-1-code-02",
+  "cell_type": "code",
+  "task_id": "3.1",
+  "role": "code"
+ },
+ {
+  "id": "3-1-code-03",
+  "cell_type": "code",
+  "task_id": "3.1",
+  "role": "code"
+ },
+ {
+  "id": "3-1-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "3.1",
+  "role": "markdown"
+ },
+ {
+  "id": "3-1-answer-02",
+  "cell_type": "markdown",
+  "task_id": "3.1",
+  "role": "answer"
+ },
+ {
+  "id": "3-2-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "3.2",
+  "role": "markdown"
+ },
+ {
+  "id": "3-2-code-01",
+  "cell_type": "code",
+  "task_id": "3.2",
+  "role": "code"
+ },
+ {
+  "id": "3-2-code-02",
+  "cell_type": "code",
+  "task_id": "3.2",
+  "role": "code"
+ },
+ {
+  "id": "3-2-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "3.2",
+  "role": "markdown"
+ },
+ {
+  "id": "3-2-code-03",
+  "cell_type": "code",
+  "task_id": "3.2",
+  "role": "code"
+ },
+ {
+  "id": "3-2-code-04",
+  "cell_type": "code",
+  "task_id": "3.2",
+  "role": "code"
+ },
+ {
+  "id": "3-2-markdown-03",
+  "cell_type": "markdown",
+  "task_id": "3.2",
+  "role": "markdown"
+ },
+ {
+  "id": "3-2-answer-01",
+  "cell_type": "markdown",
+  "task_id": "3.2",
+  "role": "answer"
+ },
+ {
+  "id": "3-3-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "3.3",
+  "role": "markdown"
+ },
+ {
+  "id": "3-3-code-01",
+  "cell_type": "code",
+  "task_id": "3.3",
+  "role": "code"
+ },
+ {
+  "id": "3-3-code-02",
+  "cell_type": "code",
+  "task_id": "3.3",
+  "role": "code"
+ },
+ {
+  "id": "3-3-code-03",
+  "cell_type": "code",
+  "task_id": "3.3",
+  "role": "code"
+ },
+ {
+  "id": "3-3-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "3.3",
+  "role": "markdown"
+ },
+ {
+  "id": "3-3-answer-01",
+  "cell_type": "markdown",
+  "task_id": "3.3",
+  "role": "answer"
+ },
+ {
+  "id": "4-setup-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "4.setup",
+  "role": "markdown"
+ },
+ {
+  "id": "4-setup-code-01",
+  "cell_type": "code",
+  "task_id": "4.setup",
+  "role": "code"
+ },
+ {
+  "id": "4-setup-code-02",
+  "cell_type": "code",
+  "task_id": "4.setup",
+  "role": "code"
+ },
+ {
+  "id": "4-1-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "4.1",
+  "role": "markdown"
+ },
+ {
+  "id": "4-1-code-01",
+  "cell_type": "code",
+  "task_id": "4.1",
+  "role": "code"
+ },
+ {
+  "id": "4-1-code-02",
+  "cell_type": "code",
+  "task_id": "4.1",
+  "role": "code"
+ },
+ {
+  "id": "4-2-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "4.2",
+  "role": "markdown"
+ },
+ {
+  "id": "4-2-code-01",
+  "cell_type": "code",
+  "task_id": "4.2",
+  "role": "code"
+ },
+ {
+  "id": "4-2-code-02",
+  "cell_type": "code",
+  "task_id": "4.2",
+  "role": "code"
+ },
+ {
+  "id": "4-2-code-03",
+  "cell_type": "code",
+  "task_id": "4.2",
+  "role": "code"
+ },
+ {
+  "id": "4-2-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "4.2",
+  "role": "markdown"
+ },
+ {
+  "id": "4-2-answer-01",
+  "cell_type": "markdown",
+  "task_id": "4.2",
+  "role": "answer"
+ },
+ {
+  "id": "4-3-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "4.3",
+  "role": "markdown"
+ },
+ {
+  "id": "4-3-code-01",
+  "cell_type": "code",
+  "task_id": "4.3",
+  "role": "code"
+ },
+ {
+  "id": "4-3-code-02",
+  "cell_type": "code",
+  "task_id": "4.3",
+  "role": "code"
+ },
+ {
+  "id": "4-3-code-03",
+  "cell_type": "code",
+  "task_id": "4.3",
+  "role": "code"
+ },
+ {
+  "id": "4-3-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "4.3",
+  "role": "markdown"
+ },
+ {
+  "id": "4-3-answer-01",
+  "cell_type": "markdown",
+  "task_id": "4.3",
+  "role": "answer"
+ },
+ {
+  "id": "5-setup-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "5.setup",
+  "role": "markdown"
+ },
+ {
+  "id": "5-setup-code-01",
+  "cell_type": "code",
+  "task_id": "5.setup",
+  "role": "code"
+ },
+ {
+  "id": "5-setup-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "5.setup",
+  "role": "markdown"
+ },
+ {
+  "id": "5-setup-code-02",
+  "cell_type": "code",
+  "task_id": "5.setup",
+  "role": "code"
+ },
+ {
+  "id": "5-setup-code-03",
+  "cell_type": "code",
+  "task_id": "5.setup",
+  "role": "code"
+ },
+ {
+  "id": "5-setup-code-04",
+  "cell_type": "code",
+  "task_id": "5.setup",
+  "role": "code"
+ },
+ {
+  "id": "5-1-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "5.1",
+  "role": "markdown"
+ },
+ {
+  "id": "5-1-code-01",
+  "cell_type": "code",
+  "task_id": "5.1",
+  "role": "code"
+ },
+ {
+  "id": "5-1-code-02",
+  "cell_type": "code",
+  "task_id": "5.1",
+  "role": "code"
+ },
+ {
+  "id": "5-1-code-03",
+  "cell_type": "code",
+  "task_id": "5.1",
+  "role": "code"
+ },
+ {
+  "id": "5-1-code-04",
+  "cell_type": "code",
+  "task_id": "5.1",
+  "role": "code"
+ },
+ {
+  "id": "5-1-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "5.1",
+  "role": "markdown"
+ },
+ {
+  "id": "5-1-code-05",
+  "cell_type": "code",
+  "task_id": "5.1",
+  "role": "code"
+ },
+ {
+  "id": "5-1-markdown-03",
+  "cell_type": "markdown",
+  "task_id": "5.1",
+  "role": "markdown"
+ },
+ {
+  "id": "5-1-answer-01",
+  "cell_type": "markdown",
+  "task_id": "5.1",
+  "role": "answer"
+ },
+ {
+  "id": "5-2-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "5.2",
+  "role": "markdown"
+ },
+ {
+  "id": "5-2-code-01",
+  "cell_type": "code",
+  "task_id": "5.2",
+  "role": "code"
+ },
+ {
+  "id": "5-2-code-02",
+  "cell_type": "code",
+  "task_id": "5.2",
+  "role": "code"
+ },
+ {
+  "id": "5-2-code-03",
+  "cell_type": "code",
+  "task_id": "5.2",
+  "role": "code"
+ },
+ {
+  "id": "5-2-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "5.2",
+  "role": "markdown"
+ },
+ {
+  "id": "5-2-answer-01",
+  "cell_type": "markdown",
+  "task_id": "5.2",
+  "role": "answer"
+ },
+ {
+  "id": "5-3-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "5.3",
+  "role": "markdown"
+ },
+ {
+  "id": "5-3-code-01",
+  "cell_type": "code",
+  "task_id": "5.3",
+  "role": "code"
+ },
+ {
+  "id": "5-3-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "5.3",
+  "role": "markdown"
+ },
+ {
+  "id": "5-3-answer-01",
+  "cell_type": "markdown",
+  "task_id": "5.3",
+  "role": "answer"
+ },
+ {
+  "id": "6-1-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "6.1",
+  "role": "markdown"
+ },
+ {
+  "id": "6-1-code-01",
+  "cell_type": "code",
+  "task_id": "6.1",
+  "role": "code"
+ },
+ {
+  "id": "6-1-code-02",
+  "cell_type": "code",
+  "task_id": "6.1",
+  "role": "code"
+ },
+ {
+  "id": "6-1-code-03",
+  "cell_type": "code",
+  "task_id": "6.1",
+  "role": "code"
+ },
+ {
+  "id": "6-1-code-04",
+  "cell_type": "code",
+  "task_id": "6.1",
+  "role": "code"
+ },
+ {
+  "id": "6-1-code-05",
+  "cell_type": "code",
+  "task_id": "6.1",
+  "role": "code"
+ },
+ {
+  "id": "6-1-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "6.1",
+  "role": "markdown"
+ },
+ {
+  "id": "6-1-answer-01",
+  "cell_type": "markdown",
+  "task_id": "6.1",
+  "role": "answer"
+ },
+ {
+  "id": "6-2-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "6.2",
+  "role": "markdown"
+ },
+ {
+  "id": "6-2-code-01",
+  "cell_type": "code",
+  "task_id": "6.2",
+  "role": "code"
+ },
+ {
+  "id": "6-2-code-02",
+  "cell_type": "code",
+  "task_id": "6.2",
+  "role": "code"
+ },
+ {
+  "id": "6-2-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "6.2",
+  "role": "markdown"
+ },
+ {
+  "id": "6-2-answer-01",
+  "cell_type": "markdown",
+  "task_id": "6.2",
+  "role": "answer"
+ },
+ {
+  "id": "6-3-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "6.3",
+  "role": "markdown"
+ },
+ {
+  "id": "6-3-code-01",
+  "cell_type": "code",
+  "task_id": "6.3",
+  "role": "code"
+ },
+ {
+  "id": "6-3-code-02",
+  "cell_type": "code",
+  "task_id": "6.3",
+  "role": "code"
+ },
+ {
+  "id": "6-3-code-03",
+  "cell_type": "code",
+  "task_id": "6.3",
+  "role": "code"
+ },
+ {
+  "id": "6-3-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "6.3",
+  "role": "markdown"
+ },
+ {
+  "id": "6-3-answer-01",
+  "cell_type": "markdown",
+  "task_id": "6.3",
+  "role": "answer"
+ },
+ {
+  "id": "submission-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "submission",
+  "role": "markdown"
+ },
+ {
+  "id": "submission-code-01",
+  "cell_type": "code",
+  "task_id": "submission",
+  "role": "code"
+ },
+ {
+  "id": "7-1-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "7.1",
+  "role": "markdown"
+ },
+ {
+  "id": "7-1-code-01",
+  "cell_type": "code",
+  "task_id": "7.1",
+  "role": "code"
+ },
+ {
+  "id": "7-1-code-02",
+  "cell_type": "code",
+  "task_id": "7.1",
+  "role": "code"
+ },
+ {
+  "id": "7-1-code-03",
+  "cell_type": "code",
+  "task_id": "7.1",
+  "role": "code"
+ },
+ {
+  "id": "7-1-code-04",
+  "cell_type": "code",
+  "task_id": "7.1",
+  "role": "code"
+ },
+ {
+  "id": "7-1-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "7.1",
+  "role": "markdown"
+ },
+ {
+  "id": "7-1-answer-01",
+  "cell_type": "markdown",
+  "task_id": "7.1",
+  "role": "answer"
+ },
+ {
+  "id": "7-2-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "7.2",
+  "role": "markdown"
+ },
+ {
+  "id": "7-2-code-01",
+  "cell_type": "code",
+  "task_id": "7.2",
+  "role": "code"
+ },
+ {
+  "id": "7-2-code-02",
+  "cell_type": "code",
+  "task_id": "7.2",
+  "role": "code"
+ },
+ {
+  "id": "7-2-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "7.2",
+  "role": "markdown"
+ },
+ {
+  "id": "7-2-answer-01",
+  "cell_type": "markdown",
+  "task_id": "7.2",
+  "role": "answer"
+ },
+ {
+  "id": "7-3-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "7.3",
+  "role": "markdown"
+ },
+ {
+  "id": "7-3-code-01",
+  "cell_type": "code",
+  "task_id": "7.3",
+  "role": "code"
+ },
+ {
+  "id": "7-3-code-02",
+  "cell_type": "code",
+  "task_id": "7.3",
+  "role": "code"
+ },
+ {
+  "id": "7-3-code-03",
+  "cell_type": "code",
+  "task_id": "7.3",
+  "role": "code"
+ },
+ {
+  "id": "7-3-code-04",
+  "cell_type": "code",
+  "task_id": "7.3",
+  "role": "code"
+ },
+ {
+  "id": "7-3-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "7.3",
+  "role": "markdown"
+ },
+ {
+  "id": "7-3-answer-01",
+  "cell_type": "markdown",
+  "task_id": "7.3",
+  "role": "answer"
+ },
+ {
+  "id": "7-4-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "7.4",
+  "role": "markdown"
+ },
+ {
+  "id": "7-4-code-01",
+  "cell_type": "code",
+  "task_id": "7.4",
+  "role": "code"
+ },
+ {
+  "id": "7-4-code-02",
+  "cell_type": "code",
+  "task_id": "7.4",
+  "role": "code"
+ },
+ {
+  "id": "7-4-code-03",
+  "cell_type": "code",
+  "task_id": "7.4",
+  "role": "code"
+ },
+ {
+  "id": "7-4-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "7.4",
+  "role": "markdown"
+ },
+ {
+  "id": "7-4-answer-01",
+  "cell_type": "markdown",
+  "task_id": "7.4",
+  "role": "answer"
+ },
+ {
+  "id": "7-5-markdown-01",
+  "cell_type": "markdown",
+  "task_id": "7.5",
+  "role": "markdown"
+ },
+ {
+  "id": "7-5-code-01",
+  "cell_type": "code",
+  "task_id": "7.5",
+  "role": "code"
+ },
+ {
+  "id": "7-5-code-02",
+  "cell_type": "code",
+  "task_id": "7.5",
+  "role": "code"
+ },
+ {
+  "id": "7-5-code-03",
+  "cell_type": "code",
+  "task_id": "7.5",
+  "role": "code"
+ },
+ {
+  "id": "7-5-markdown-02",
+  "cell_type": "markdown",
+  "task_id": "7.5",
+  "role": "markdown"
+ },
+ {
+  "id": "7-5-answer-01",
+  "cell_type": "markdown",
+  "task_id": "7.5",
+  "role": "answer"
+ }
+]
