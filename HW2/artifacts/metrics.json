@@ -1,0 +1,187 @@
+{
+  "track": "cv",
+  "model": "yolo26n.pt",
+  "revision": "ultralytics==8.4.216; sha256=9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "dataset": "SeaDronesSee Object Detection v2 (mirror dronefreak/SeaDronesSee, revision deb1f87), https://huggingface.co/datasets/dronefreak/SeaDronesSee, CC0 1.0",
+  "classes": [
+    "swimmer",
+    "boat",
+    "jetski",
+    "life_saving_appliances",
+    "buoy"
+  ],
+  "n_train": 2400,
+  "n_val": 400,
+  "n_test": 1000,
+  "params_total": 2572280,
+  "baseline": {
+    "split": "test",
+    "coco_map50": 0.16938138747346737,
+    "heuristic_map50": 0.021662809362653673,
+    "heuristic_ap50_per_class": {
+      "swimmer": 0.002502005071956704,
+      "boat": 0.09634954496404192,
+      "jetski": 0.0024707919087461083,
+      "life_saving_appliances": 0.0006450262168140951,
+      "buoy": 0.006346678651709526
+    }
+  },
+  "final": {
+    "split": "test",
+    "map50": 0.7954998559450461,
+    "map50_95": 0.4460682889571162,
+    "precision": 0.843793563857739,
+    "recall": 0.7747769850751056,
+    "per_class": {
+      "swimmer": {
+        "n_instances": 4110,
+        "precision": 0.8005732552388141,
+        "recall": 0.8158150851581508,
+        "ap50": 0.784687806833738,
+        "ap50_95": 0.3323705446787227
+      },
+      "boat": {
+        "n_instances": 1467,
+        "precision": 0.951732696972983,
+        "recall": 0.9379686434901159,
+        "ap50": 0.9627663900555343,
+        "ap50_95": 0.689316475601952
+      },
+      "jetski": {
+        "n_instances": 212,
+        "precision": 0.7935424111655662,
+        "recall": 0.9056603773584906,
+        "ap50": 0.8806928057494848,
+        "ap50_95": 0.5515359904803017
+      },
+      "life_saving_appliances": {
+        "n_instances": 222,
+        "precision": 0.8052230069781143,
+        "recall": 0.39106758229066685,
+        "ap50": 0.4795368935139691,
+        "ap50_95": 0.1541040560596968
+      },
+      "buoy": {
+        "n_instances": 383,
+        "precision": 0.8678964489332173,
+        "recall": 0.8233732370781038,
+        "ap50": 0.8698153835725042,
+        "ap50_95": 0.5030143779649079
+      }
+    },
+    "valid": {
+      "split": "val",
+      "map50": 0.7125348763291363,
+      "map50_95": 0.4527200682663778,
+      "precision": 0.7665645948064533,
+      "recall": 0.7070518806082757,
+      "per_class": {
+        "swimmer": {
+          "n_instances": 2146,
+          "precision": 0.6593258277609189,
+          "recall": 0.7320596458527493,
+          "ap50": 0.6203288431346596,
+          "ap50_95": 0.21467263411702064
+        },
+        "boat": {
+          "n_instances": 245,
+          "precision": 0.8554980622534305,
+          "recall": 0.9142857142857143,
+          "ap50": 0.929358771737172,
+          "ap50_95": 0.6857569315232147
+        },
+        "jetski": {
+          "n_instances": 178,
+          "precision": 0.7694490130808409,
+          "recall": 0.8314606741573034,
+          "ap50": 0.8948232833288049,
+          "ap50_95": 0.6721223076823905
+        },
+        "life_saving_appliances": {
+          "n_instances": 179,
+          "precision": 0.6393893888857931,
+          "recall": 0.12849162011173185,
+          "ap50": 0.23751903537591768,
+          "ap50_95": 0.08153517323389889
+        },
+        "buoy": {
+          "n_instances": 183,
+          "precision": 0.9091606820512831,
+          "recall": 0.9289617486338798,
+          "ap50": 0.8806444480691268,
+          "ap50_95": 0.609513294775364
+        }
+      }
+    },
+    "own_map50": 0.7689213663051324
+  },
+  "ablation": {
+    "change": "imgsz",
+    "values": [
+      640,
+      960
+    ],
+    "split": "val",
+    "map50": [
+      0.6483585963404075,
+      0.7125348763291363
+    ],
+    "map50_95": [
+      0.38141014549503155,
+      0.4527200682663778
+    ],
+    "train_seconds": [
+      1054.4630186580002,
+      2000.617442389
+    ],
+    "ap50_per_class": {
+      "640": {
+        "swimmer": 0.5572784319457023,
+        "boat": 0.9013367052554004,
+        "jetski": 0.7960191374148521,
+        "life_saving_appliances": 0.09215914117312199,
+        "buoy": 0.8949995659129608
+      },
+      "960": {
+        "swimmer": 0.6203288431346596,
+        "boat": 0.929358771737172,
+        "jetski": 0.8948232833288049,
+        "life_saving_appliances": 0.23751903537591768,
+        "buoy": 0.8806444480691268
+      }
+    }
+  },
+  "errors": {
+    "tp": 2139,
+    "class": 100,
+    "localization": 498,
+    "background": 178,
+    "missed": 244
+  },
+  "device": "Tesla T4",
+  "train_time_sec": 2000.617442389,
+  "fast_mode": false,
+  "train_args": {
+    "epochs": 40,
+    "imgsz": 960,
+    "batch": 16,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "cos_lr": true,
+    "patience": 15,
+    "flipud": 0.5,
+    "fliplr": 0.5,
+    "mosaic": 1.0,
+    "close_mosaic": 5,
+    "seed": 0,
+    "plots": true,
+    "val": true
+  },
+  "run_times": {
+    "download": 709.041276187,
+    "coco_baseline": 17.22631431299999,
+    "heuristic": 97.31921780899995,
+    "train": 2000.617442389,
+    "ablation": 1054.4630186580002
+  }
+}

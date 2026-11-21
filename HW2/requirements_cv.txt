@@ -1,0 +1,15 @@
+# ДЗ2, вариант CV (детекция на YOLO). Colab / Kaggle: torch, torchvision, numpy, scipy, matplotlib, pillow уже стоят,
+# достаточно: pip install -q -r requirements_cv.txt  (первая ячейка ноутбука сама ставит ultralytics, если его нет)
+ultralytics>=8.4.0,<8.5
+torch>=2.2
+torchvision>=0.17
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pillow>=10.0
+pyyaml>=6.0
+requests>=2.31
+huggingface_hub>=0.24
+# бонус 6.4 (экспорт в ONNX): ultralytics доставит onnx сам при export, но надежнее поставить заранее
+# onnx>=1.16
+# onnxruntime>=1.18
